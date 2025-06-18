@@ -1,0 +1,11 @@
+{
+  "environment": {
+    "plugins": [
+      {
+        "name": "DitherTone",
+        "url": "https://your-vercel-domain.vercel.app/index.html",
+        "icon": "https://your-vercel-domain.vercel.app/icon.svg"
+      }
+    ]
+  }
+}

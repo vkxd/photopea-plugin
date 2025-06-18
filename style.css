@@ -1,0 +1,16 @@
+:root{
+    --bg:#111;--fg:#eee;--accent:#58A6FF;--radius:6px;--font:Inter,system-ui,sans-serif;
+}
+body{margin:0;height:100vh;display:flex;align-items:center;justify-content:center;background:var(--bg);color:var(--fg);font-family:var(--font);}
+.panel{display:flex;flex-direction:column;width:100%;max-width:340px;height:100%;padding:1rem;box-sizing:border-box;border:1px solid #333;border-radius:var(--radius);background:#1a1a1a;}
+header{display:flex;align-items:center;gap:.5rem;margin-bottom:1rem;}
+.logo{width:24px;height:24px;}
+h1{font-size:1.2rem;margin:0;}
+#controls{flex:1;overflow:auto;}
+.group{margin-bottom:1rem;}
+.group h2{font-size:.9rem;margin:.5rem 0;}
+label{display:flex;justify-content:space-between;align-items:center;font-size:.8rem;margin:.25rem 0;}
+input[type=range]{width:60%;}
+select{width:100%;padding:.25rem;border-radius:var(--radius);background:#222;color:var(--fg);border:none;}
+footer{display:flex;justify-content:center;}
+button{padding:.5rem 1rem;border:none;border-radius:var(--radius);background:var(--accent);color:#fff;font-weight:bold;cursor:pointer;}

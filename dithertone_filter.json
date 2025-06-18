@@ -1,0 +1,144 @@
+{
+  "name": "DitherTone",
+  "version": "1.0.0",
+  "description": "Advanced real\u2011time dithering and tri\u2011tone colour\u2011mapping filter for Photopea.",
+  "ui": {
+    "theme": "dark",
+    "accentColor": "#58A6FF",
+    "font": "Inter"
+  },
+  "algorithms": [
+    {
+      "id": "bayer2",
+      "name": "Bayer 2\u00d72"
+    },
+    {
+      "id": "bayer4",
+      "name": "Bayer 4\u00d74"
+    },
+    {
+      "id": "bayer8",
+      "name": "Bayer 8\u00d78"
+    },
+    {
+      "id": "floyd_steinberg",
+      "name": "Floyd\u2011Steinberg"
+    },
+    {
+      "id": "jarvis_judice_ninke",
+      "name": "Jarvis\u2011Judice\u2011Ninke"
+    },
+    {
+      "id": "stucki",
+      "name": "Stucki"
+    },
+    {
+      "id": "atkinson",
+      "name": "Atkinson"
+    },
+    {
+      "id": "sierra_lite",
+      "name": "Sierra Lite"
+    },
+    {
+      "id": "sierra2",
+      "name": "Sierra\u20112"
+    },
+    {
+      "id": "sierra3",
+      "name": "Sierra\u20113"
+    },
+    {
+      "id": "burkes",
+      "name": "Burkes"
+    },
+    {
+      "id": "fan",
+      "name": "Fan"
+    },
+    {
+      "id": "shiau_fan4_5a",
+      "name": "Shiau\u2011Fan 4\u20115A"
+    },
+    {
+      "id": "shiau_fan2_3a",
+      "name": "Shiau\u2011Fan 2\u20113A"
+    },
+    {
+      "id": "shiau_fan1_2a",
+      "name": "Shiau\u2011Fan 1\u20112A"
+    },
+    {
+      "id": "newsprint",
+      "name": "Newsprint"
+    },
+    {
+      "id": "halftone_circular",
+      "name": "Halftone Circular"
+    },
+    {
+      "id": "halftone_line",
+      "name": "Halftone Line"
+    },
+    {
+      "id": "cluster",
+      "name": "Cluster"
+    },
+    {
+      "id": "threshold50",
+      "name": "Threshold 50%"
+    },
+    {
+      "id": "dot_diffusion",
+      "name": "Dot Diffusion"
+    },
+    {
+      "id": "blue_noise",
+      "name": "Blue Noise"
+    },
+    {
+      "id": "void_and_cluster",
+      "name": "Void\u2011and\u2011Cluster"
+    },
+    {
+      "id": "ordered_16",
+      "name": "Ordered 16\u00d716"
+    },
+    {
+      "id": "paired_pattern",
+      "name": "Paired Pattern"
+    },
+    {
+      "id": "pdfs",
+      "name": "PDFS"
+    },
+    {
+      "id": "random_threshold",
+      "name": "Random Threshold"
+    },
+    {
+      "id": "faux_halftone",
+      "name": "Faux Halftone"
+    },
+    {
+      "id": "void_cluster_8",
+      "name": "Void\u2011Cluster 8\u00d78"
+    },
+    {
+      "id": "dither_me_down",
+      "name": "Dither Me Down"
+    },
+    {
+      "id": "medium_modulation",
+      "name": "Medium Modulation"
+    }
+  ],
+  "defaults": {
+    "algorithm": "bayer8",
+    "tonal_mapping": "Tri\u2011Tone",
+    "input_dpi": 72,
+    "highlights": "#FFF7E0",
+    "midtones": "#B5CFFF",
+    "shadows": "#1D1E28"
+  }
+}
